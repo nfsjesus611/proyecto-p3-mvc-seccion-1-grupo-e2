@@ -1,0 +1,74 @@
+.box {
+	height:250px;
+}
+body {
+	height: 100%;
+	/*height: 	100vh;*/
+	background: #f5f5f5;
+	overflow: auto;
+}
+
+#btn {
+	cursor: pointer;
+}
+
+.panel {
+	background: #F2F2F2;
+}
+.menu {
+	/*height: 100%;*/
+	height: 	100vh;
+	overflow: auto;
+}
+
+.intro {
+	height: 100vh;
+}
+.nav-item:hover{
+	background: #b71c1c;
+}
+
+td, th {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*.list-group {*/
+	/*--bs-list-group-bg:#e53935;
+	--bs-list-group-color:#ffffff;*/
+	/*--bs-list-group-active-bg: #ff4c8d;*/
+	/*--bs-list-group-active-color: #fff;*/
+/*}*/
+
+/*.list-group:hover, .list-group:focus {
+	--bs-list-group-active-bg: #ff4c8d;
+	--bs-list-group-active-color: #fff;
+} */
+
+/*@media screen and*/
+
+.fadeIn {
+	animation: fadeIn 1s forwards;
+}
+.fadeOut {
+	animation: fadeOut 1s forwards;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		visibility:hidden;
+	} to {
+		opacity: 1;
+		visibility:visible;
+	}
+}
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+		visibility:visible;
+	} to {
+		opacity: 0;
+		visibility:hidden;
+	}
+}
