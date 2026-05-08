@@ -84,3 +84,9 @@ Se llevó a cabo una migración completa hacia una arquitectura MVC con los sigu
 <img width="1049" height="580" alt="wYH9wmVMrR" src="https://github.com/user-attachments/assets/6646c163-feab-4b5c-b961-6978271fbbb9" />
 <img width="1053" height="641" alt="gXFz0U9Aw3" src="https://github.com/user-attachments/assets/519fae88-8eb2-4a22-8182-9485e08d4a46" />
 
+## Cómo ejecutar el proyecto
+1. Clonar el repositorio en `xampp/htdocs` (o carpeta de su servidor).
+2. Crear base de datos `capacitacion_metro` e importar `database/schema.sql`.
+3. Configurar credenciales en `Core/Database.php`.
+4. Asegurar que Apache tenga `mod_rewrite` habilitado.
+5. Acceder a `http://localhost/proyecto-p3-mvc/backend/`.
